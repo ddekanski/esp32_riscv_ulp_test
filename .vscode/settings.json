@@ -1,0 +1,14 @@
+{
+    "idf.flashType": "UART",
+    "idf.port": "/dev/cu.usbmodem14201",
+    "idf.adapterTargetName": "esp32s3",
+    "files.associations": {
+        "ulp_main.h": "c",
+        "task.h": "c",
+        "ulp_riscv_utils.h": "c",
+        "ulp_riscv_gpio.h": "c",
+        "ulp_riscv.h": "c",
+        "rtc_cntl_reg.h": "c",
+        "ulp_common.h": "c"
+    }
+}
