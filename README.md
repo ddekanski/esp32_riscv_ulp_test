@@ -15,7 +15,7 @@ Here are the current consumtion resuls for my LILYGO T7 S3:
 
 | State      | Current consumption |
 | ----------- | ----------- |
-| Deep sleep, ULP not running phase 4) | 34µA       |
+| Deep sleep, ULP not running (phase 4) | 34µA       |
 | Deep sleep, ULP running (phase 3)    | 416µA      |
 
 The on-board LED in LILYGO T7 S3 is attached to GPIO 17. If you own a different module with different wiring, edit this line in ulp/main.c:
