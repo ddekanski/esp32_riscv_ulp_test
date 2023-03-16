@@ -12,8 +12,11 @@ This code enables ULP and deep sleep current measurements as it cycles through t
 5. Go to (2)
 
 Here are the current consumtion resuls for my LILYGO T7 S3:
-In deep sleep (phase 4): 34 uA
-When only the ULP is running (phase 3): 416 uA
+
+| State      | Current consumption |
+| ----------- | ----------- |
+| Deep sleep, ULP not running phase 4) | 34µA       |
+| Deep sleep, ULP running (phase 3)    | 416µA      |
 
 The on-board LED in LILYGO T7 S3 is attached to GPIO 17. If you own a different module with different wiring, edit this line in ulp/main.c:
 ```
